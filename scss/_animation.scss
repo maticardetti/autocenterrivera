@@ -1,0 +1,13 @@
+@import "../scss/variables";
+
+@keyframes animatetext {
+	from{color:$color-text;}
+	to{color:$color-text-yellow;}	
+	}
+	
+	.animatetext {
+		animation-name: animatetext ;
+		animation-duration: 5s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	}

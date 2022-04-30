@@ -1,0 +1,89 @@
+/* import*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&display=swap');
+@import "../scss/variables";
+/* fuente para el html*/
+
+*{
+	font-family: 'Arimo', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 65%;
+}
+
+body {
+	background-image: url(../img/fondo.jpg);
+	background-attachment: fixed;
+}
+
+h1 {
+	font-size: 5rem;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin: 5%;
+}
+
+p {
+	line-height: 2rem;
+	font-size: 1.8rem;
+	margin: auto;
+	padding: 10%;
+}
+
+/*selector de grupo*/
+/*texto*/
+h1,
+h2,
+p {
+	color:$color-text;
+	font-family: 'Arimo', sans-serif;
+	line-height: normal;
+	word-spacing: normal;
+	letter-spacing: normal;
+	text-align: center;
+}
+
+/* clases camelCase  */
+.bgyellow {
+	background-color:$bgyellow ;
+}
+
+.bgblue{
+	background-color:$bgblue;
+}
+
+.bgtrasparent{
+	background-color: transparent;
+}
+
+.z-index-10{
+	z-index: 10;
+}
+
+
+.imgerror {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+    .imgerror {
+		width: 25%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 4rem;
+
+	}
+    }

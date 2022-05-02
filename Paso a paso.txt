@@ -1,0 +1,22 @@
+Hola! En esta nota voy a comentar el paso a paso para realizar mi proyecto.
+*Crear Wireframes
+
+* Crear todos los archivos html y estucturarlos,  que todos los archivos se redireccionen entre si y funcionen.
+
+*Insertar links de bootstrap por cdn. 
+Con boostrap logre hacer responsive los html, utilice la navbar, el form y carousel.
+
+*Insertar css a traves de sass. compilando los archivos y trabando siempre con sass le di estilo a la web.
+
+*Optimice todas las imagenes que tenia en el documento.
+
+*Posicionamiento orgnanico con SEO.  Title, author,description,keyword. 
+
+*reparar bug de card en la pagina neumaticos. Utilice extend.
+
+*reparar bug de z-index, el carousel me tapaba la navbar. 
+
+*Crear pagina error 404 por si envian el formulario.
+
+*Subir archivos a webhost mediante filezilla.
+
